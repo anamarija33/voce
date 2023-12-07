@@ -75,7 +75,8 @@ Ažuriranje: `apt-get update` -> nadogradnja `apt-get upgrade`
 	- `find /dir -name *.txt` - traži sve tekstualne datoteke u dir hijerarhiji  
 
 
-`tar [options] [archive-file] [file or directory to be archived]` - za kreiranje i raspakiravanje arhiva    
+`tar [options] [archive-file] [file or directory to be archived]` - za kreiranje i raspakiravanje arhiva   
+	
 
 
 `nano ili vi ili jed` - za kreiranje i mjenjanje datoteke u tekstualnom editoru  
@@ -92,6 +93,8 @@ Ažuriranje: `apt-get update` -> nadogradnja `apt-get upgrade`
 
 
 `zip [opcije] [datoteka.zip] [ime_dir]` / `unzip [zip dat]` arhiviranje / raspakiravanje arhiva  
+	-`zip -r dat.zip dat/` - rekurzivno arhivira sve datoteke u direktoriju
+ 	- ` unzip dat.zip -d dat/` - otpakira arhivu u direktorij
 
 
 `stat datoteka` - pogledaj statistiku datoteke  
