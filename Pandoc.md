@@ -5,5 +5,14 @@
 
 `pandoc test.html -o test.pdf` - kreira pdf iz html datoteke
 
+EPUB ebook:  
+
+`pandoc MANUAL.md -o MANUAL.epub`  
+
+From markdown to PDF:  
+
+pandoc MANUAL.txt --pdf-engine=xelatex -o example13.pdf  
+
+
 
 
