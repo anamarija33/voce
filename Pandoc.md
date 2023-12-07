@@ -11,7 +11,8 @@ EPUB ebook:
 
 From markdown to PDF:  
 
-pandoc MANUAL.txt --pdf-engine=xelatex -o example13.pdf  
+`pandoc input.md -o output.pdf`     
+`pandoc -s -o doc.pdf doc.md  `
 
 
 
